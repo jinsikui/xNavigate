@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name             = 'xNavigate'
-  s.version          = '1.0.0.0'
+  s.version          = '1.0.0.1'
   s.summary          = '导航组件库'
 
   s.description      = <<-DESC
