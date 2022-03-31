@@ -8,6 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		54304A9CE4EED2F9AE0D3F4F /* libPods-xNavigate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E88FB74AA80F1FEB692E4C67 /* libPods-xNavigate.a */; };
+		6307EAAF27F56E3500D1DFE6 /* xRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6307EAA827F56E3500D1DFE6 /* xRouter.m */; };
+		6307EAB027F56E3500D1DFE6 /* xRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6307EAA827F56E3500D1DFE6 /* xRouter.m */; };
+		6307EAB127F56E3500D1DFE6 /* xRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6307EAA827F56E3500D1DFE6 /* xRouter.m */; };
+		6307EAB227F56E3500D1DFE6 /* xDocumentUrlInterceptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6307EAAA27F56E3500D1DFE6 /* xDocumentUrlInterceptor.m */; };
+		6307EAB327F56E3500D1DFE6 /* xDocumentUrlInterceptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6307EAAA27F56E3500D1DFE6 /* xDocumentUrlInterceptor.m */; };
+		6307EAB427F56E3500D1DFE6 /* xDocumentUrlInterceptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6307EAAA27F56E3500D1DFE6 /* xDocumentUrlInterceptor.m */; };
+		6307EAB527F56E3500D1DFE6 /* xNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6307EAAB27F56E3500D1DFE6 /* xNavigation.m */; };
+		6307EAB627F56E3500D1DFE6 /* xNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6307EAAB27F56E3500D1DFE6 /* xNavigation.m */; };
+		6307EAB727F56E3500D1DFE6 /* xNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6307EAAB27F56E3500D1DFE6 /* xNavigation.m */; };
+		6307EAB827F56E3500D1DFE6 /* xControllerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6307EAAD27F56E3500D1DFE6 /* xControllerHelper.m */; };
+		6307EAB927F56E3500D1DFE6 /* xControllerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6307EAAD27F56E3500D1DFE6 /* xControllerHelper.m */; };
+		6307EABA27F56E3500D1DFE6 /* xControllerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6307EAAD27F56E3500D1DFE6 /* xControllerHelper.m */; };
 		6331E38327F484D1001DFB95 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6331E38227F484D1001DFB95 /* AppDelegate.m */; };
 		6331E38927F484D1001DFB95 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6331E38827F484D1001DFB95 /* ViewController.m */; };
 		6331E38E27F484D2001DFB95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6331E38D27F484D2001DFB95 /* Assets.xcassets */; };
@@ -37,6 +49,16 @@
 /* Begin PBXFileReference section */
 		2057D61D0401C369030D3419 /* Pods-xNavigate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xNavigate.debug.xcconfig"; path = "Target Support Files/Pods-xNavigate/Pods-xNavigate.debug.xcconfig"; sourceTree = "<group>"; };
 		3AEA744DC2B62A56C173FEBD /* Pods-xNavigate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xNavigate.release.xcconfig"; path = "Target Support Files/Pods-xNavigate/Pods-xNavigate.release.xcconfig"; sourceTree = "<group>"; };
+		6307EAA527F56E3500D1DFE6 /* xNavigation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xNavigation.h; sourceTree = "<group>"; };
+		6307EAA627F56E3500D1DFE6 /* xUrlInterceptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xUrlInterceptor.h; sourceTree = "<group>"; };
+		6307EAA727F56E3500D1DFE6 /* xDocumentUrlInterceptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xDocumentUrlInterceptor.h; sourceTree = "<group>"; };
+		6307EAA827F56E3500D1DFE6 /* xRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = xRouter.m; sourceTree = "<group>"; };
+		6307EAA927F56E3500D1DFE6 /* xControllerHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xControllerHelper.h; sourceTree = "<group>"; };
+		6307EAAA27F56E3500D1DFE6 /* xDocumentUrlInterceptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = xDocumentUrlInterceptor.m; sourceTree = "<group>"; };
+		6307EAAB27F56E3500D1DFE6 /* xNavigation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = xNavigation.m; sourceTree = "<group>"; };
+		6307EAAC27F56E3500D1DFE6 /* xRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xRouter.h; sourceTree = "<group>"; };
+		6307EAAD27F56E3500D1DFE6 /* xControllerHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = xControllerHelper.m; sourceTree = "<group>"; };
+		6307EAAE27F56E3500D1DFE6 /* xNavigate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xNavigate.h; sourceTree = "<group>"; };
 		6331E37E27F484D1001DFB95 /* xNavigate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xNavigate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6331E38127F484D1001DFB95 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6331E38227F484D1001DFB95 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -53,6 +75,9 @@
 		6331E3A827F484D2001DFB95 /* xNavigateUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xNavigateUITests.m; sourceTree = "<group>"; };
 		6331E3AA27F484D2001DFB95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6331E43A27F48A9C001DFB95 /* config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = config.xcconfig; sourceTree = "<group>"; };
+		6331E44327F49DB0001DFB95 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6331E44427F49DB0001DFB95 /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
+		6331E44527F49DB0001DFB95 /* xNavigate.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = xNavigate.podspec; sourceTree = "<group>"; };
 		E88FB74AA80F1FEB692E4C67 /* libPods-xNavigate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-xNavigate.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -82,10 +107,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6307EAA227F56E1400D1DFE6 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				6307EAA327F56E3500D1DFE6 /* Classes */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		6307EAA327F56E3500D1DFE6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6307EAA427F56E3500D1DFE6 /* Navigation */,
+				6307EAAE27F56E3500D1DFE6 /* xNavigate.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		6307EAA427F56E3500D1DFE6 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				6307EAA927F56E3500D1DFE6 /* xControllerHelper.h */,
+				6307EAAD27F56E3500D1DFE6 /* xControllerHelper.m */,
+				6307EAA727F56E3500D1DFE6 /* xDocumentUrlInterceptor.h */,
+				6307EAAA27F56E3500D1DFE6 /* xDocumentUrlInterceptor.m */,
+				6307EAA527F56E3500D1DFE6 /* xNavigation.h */,
+				6307EAAB27F56E3500D1DFE6 /* xNavigation.m */,
+				6307EAAC27F56E3500D1DFE6 /* xRouter.h */,
+				6307EAA827F56E3500D1DFE6 /* xRouter.m */,
+				6307EAA627F56E3500D1DFE6 /* xUrlInterceptor.h */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
 		6331E37527F484D1001DFB95 = {
 			isa = PBXGroup;
 			children = (
+				6331E44427F49DB0001DFB95 /* CHANGELOG.md */,
+				6331E44327F49DB0001DFB95 /* README.md */,
+				6331E44527F49DB0001DFB95 /* xNavigate.podspec */,
 				6331E43A27F48A9C001DFB95 /* config.xcconfig */,
+				6307EAA227F56E1400D1DFE6 /* Source */,
 				6331E38027F484D1001DFB95 /* xNavigate */,
 				6331E39C27F484D2001DFB95 /* xNavigateTests */,
 				6331E3A727F484D2001DFB95 /* xNavigateUITests */,
@@ -144,7 +206,6 @@
 				2057D61D0401C369030D3419 /* Pods-xNavigate.debug.xcconfig */,
 				3AEA744DC2B62A56C173FEBD /* Pods-xNavigate.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -310,8 +371,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6307EAB827F56E3500D1DFE6 /* xControllerHelper.m in Sources */,
 				6331E38927F484D1001DFB95 /* ViewController.m in Sources */,
+				6307EAAF27F56E3500D1DFE6 /* xRouter.m in Sources */,
+				6307EAB227F56E3500D1DFE6 /* xDocumentUrlInterceptor.m in Sources */,
 				6331E38327F484D1001DFB95 /* AppDelegate.m in Sources */,
+				6307EAB527F56E3500D1DFE6 /* xNavigation.m in Sources */,
 				6331E39427F484D2001DFB95 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -320,7 +385,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6307EAB627F56E3500D1DFE6 /* xNavigation.m in Sources */,
+				6307EAB927F56E3500D1DFE6 /* xControllerHelper.m in Sources */,
 				6331E39E27F484D2001DFB95 /* xNavigateTests.m in Sources */,
+				6307EAB327F56E3500D1DFE6 /* xDocumentUrlInterceptor.m in Sources */,
+				6307EAB027F56E3500D1DFE6 /* xRouter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,7 +397,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6307EAB727F56E3500D1DFE6 /* xNavigation.m in Sources */,
+				6307EABA27F56E3500D1DFE6 /* xControllerHelper.m in Sources */,
 				6331E3A927F484D2001DFB95 /* xNavigateUITests.m in Sources */,
+				6307EAB427F56E3500D1DFE6 /* xDocumentUrlInterceptor.m in Sources */,
+				6307EAB127F56E3500D1DFE6 /* xRouter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
