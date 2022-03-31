@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0-0](https://github.com/jinsikui/xNavigate/compare/v1.0.0-1...v2.0.0-0) (2022-03-31)
+
+
+### Features
+
+* code complete ([bdd955e](https://github.com/jinsikui/xNavigate/commit/bdd955ecfa367367ce1036089c0ab2528554ed8d))
+
 ## 1.0.0-1 (2022-03-30)
 
 
