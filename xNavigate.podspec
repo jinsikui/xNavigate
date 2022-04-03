@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
   s.source_files = 'Source/Classes/xNavigate.h'
   s.dependency 'Masonry'
-  s.dependency 'AFNetworking'
+  s.dependency 'AFNetworking', '~> 4.0.0'
   
   s.subspec 'Navigation' do |na|
     na.source_files = 'Source/Classes/Navigation/*'

@@ -2,6 +2,6 @@
 platform :ios, '9.0'
 
 target 'xNavigate' do
-  pod 'AFNetworking'
+  pod 'AFNetworking', '~> 4.0.0'
   pod 'Masonry'
 end
